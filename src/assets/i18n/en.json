@@ -1,0 +1,37 @@
+{
+    "about":{
+        "is": "Luan is:",
+        "header": "Allow me to introduce myself, I am Luan Masson",
+        "aboutMe": "I currently work in a Software factory as Full Stack, I'm looking to study and improve myself in web development with the study of the 3 biggest frameworks on the market: Vue, React and Angular."
+    },
+    "mode":{
+        "light": "light mode",
+        "dark": "dark mode"
+    },
+    "skills":{
+        "soft": {
+            "image": "",
+            "imageDark": "",
+            "title" : "Soft Skills",
+            "skills": ["Fast Learning","Collaborative", "Organizational Skill", "Good Communication", "Flexibility/Adaptability", "Ability to Concentrate", "Autonomy"]
+        },
+        "general": {
+            "image": "/src/assets/imgs/icons/full-skill.svg",
+            "imageDark": "/src/assets/imgs/icons/full-skill-white.svg",
+            "title" : "",
+            "skills": ["Teste"]
+        },
+        "front": {
+            "image": "/src/assets/imgs/icons/front-skill.svg",
+            "imageDark": "/src/assets/imgs/icons/front-skill-white.svg",
+            "title" : "",
+            "skills": ["Teste"]
+        },
+        "back": {
+            "image": "/src/assets/imgs/icons/back-skill.svg",
+            "imageDark": "/src/assets/imgs/icons/back-skill-white.svg",
+            "title" : "",
+            "skills": ["Teste"]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "about":{
+        "is": "Luan é:",
+        "header": "Deixe me apresentar, eu sou Luan Masson",
+        "aboutMe": "Trabalho atualmente em uma fábrica de Software como Full Stack, estou procurando estudar e me aperfeiçoar no desenvolvimento web com o estudo dos 3 maiores 'frameworks' do mercado: Vue, React e Angular."
+    },
+    "mode":{
+        "light": "modo claro",
+        "dark": "modo escuro"
+    },
+    "skills":{
+        "soft": {
+            "image": "/src/assets/imgs/icons/skill-svg.svg",
+            "imageDark": "/src/assets/imgs/icons/skill-white-svg.svg",
+            "title" : "Soft Skills",
+            "skills": ["Aprendizado Rápido","Colaborativo", "Habilidade Organizacional", "Boa Comunicação" , "Flexibilidade/Adaptabilidade",  "Capacidade de Concentração", "Autonomia"]
+        },
+        "general": {
+            "image": "/src/assets/imgs/icons/full-skill.svg",
+            "imageDark": "/src/assets/imgs/icons/full-skill-white.svg",
+            "title" : "Skills Gerais",
+            "skills": ["Lógica de Programação", "GitFlow", "Git", "GitHub/GitLab"]
+        },
+        "front": {
+            "image": "/src/assets/imgs/icons/front-skill.svg",
+            "imageDark": "/src/assets/imgs/icons/front-skill-white.svg",
+            "title" : "Front End",
+            "skills": ["Angular", "Vue", "React", "TS/JS"]
+        },
+        "back": {
+            "image": "/src/assets/imgs/icons/back-skill.svg",
+            "imageDark": "/src/assets/imgs/icons/back-skill-white.svg",
+            "title" : "Back End",
+            "skills": ["Java", "Python"]
+        }
+    }
+}
