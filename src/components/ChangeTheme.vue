@@ -1,9 +1,7 @@
 <script setup>
 import Button from "primevue/button";
 import { useDark, useToggle } from "@vueuse/core";
-import { ref } from "vue";
 
-let isActive = ref(false);
 const isDark = useDark({
   selector: "body",
   attribute: "class",
@@ -13,7 +11,6 @@ const isDark = useDark({
 let toggle = useToggle(isDark);
 
 function changeStatus() {
-  isActive.value = true;
   toggle();
 }
 </script>

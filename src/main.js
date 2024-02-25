@@ -3,6 +3,7 @@ import App from './App.vue';
 import PrimeVue from 'primevue/config';
 import Lara from '../src/assets/Lara/index.js';
 import Tooltip from 'primevue/tooltip';
+import AnimateOnScroll from 'primevue/animateonscroll';
 
 import { createI18n } from 'vue-i18n';
 import pt from './assets/i18n/pt.json';
@@ -27,5 +28,6 @@ app.use(PrimeVue,{
     pt: Lara
 })
 app.use(i18n);
+app.directive('animateonscroll', AnimateOnScroll);
 app.directive('tooltip', Tooltip);
 app.mount('#app');

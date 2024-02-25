@@ -1,35 +1,8 @@
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from "vue";
-
-const myElement = ref(null);
-let showElement = ref(false);
-
-let observer;
-
-onMounted(() => {
-  observer = new IntersectionObserver(handleIntersection, {
-    root: null,
-    threshold: 0.1,
-  });
-  observer.observe(myElement.value);
-});
-
-onBeforeUnmount(() => {
-  observer.disconnect();
-});
-
-function handleIntersection(entries) {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      showElement.value = true;
-    } 
-  });
-}
 </script>
 <template>
-  <section ref="myElement" class="flex w-dvw h-3/4 absolute top-2">
+  <section class="flex w-dvw h-3/4 absolute top-2">
     <div
-      v-if="showElement"
       class="flex flex-col md:flex-row fade-in w-full h-full items-center justify-center gap-8"
     >
       <div class="flex flex-col gap-2 w-30rem items-center md:items-start">

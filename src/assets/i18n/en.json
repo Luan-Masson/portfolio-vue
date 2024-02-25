@@ -10,28 +10,28 @@
     },
     "skills":{
         "soft": {
-            "image": "",
-            "imageDark": "",
+            "image": "/src/assets/imgs/icons/skill-svg.svg",
+            "imageDark": "/src/assets/imgs/icons/skill-white-svg.svg",
             "title" : "Soft Skills",
             "skills": ["Fast Learning","Collaborative", "Organizational Skill", "Good Communication", "Flexibility/Adaptability", "Ability to Concentrate", "Autonomy"]
         },
         "general": {
             "image": "/src/assets/imgs/icons/full-skill.svg",
             "imageDark": "/src/assets/imgs/icons/full-skill-white.svg",
-            "title" : "",
-            "skills": ["Teste"]
+            "title" : "General Skills",
+            "skills": ["Programming Logic", "GitFlow", "Git", "GitHub/GitLab"]
         },
         "front": {
             "image": "/src/assets/imgs/icons/front-skill.svg",
             "imageDark": "/src/assets/imgs/icons/front-skill-white.svg",
-            "title" : "",
-            "skills": ["Teste"]
+            "title" : "Front End",
+            "skills": ["Angular", "Vue", "React", "TS/JS"]
         },
         "back": {
             "image": "/src/assets/imgs/icons/back-skill.svg",
             "imageDark": "/src/assets/imgs/icons/back-skill-white.svg",
-            "title" : "",
-            "skills": ["Teste"]
+            "title" : "Back End",
+            "skills": ["Java", "Python"]
         }
     }
 }
