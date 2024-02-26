@@ -33,6 +33,10 @@ const isDark = useDark({
   valueDark: "dark",
   valueLight: "light",
 });
+
+function getImageUrl(name) {
+  return new URL(import.meta.env.MODE === 'production' ? `/portfolio-vue${name}` : `${name}`, import.meta.url).href
+}
 </script>
 
 <template>
@@ -55,7 +59,7 @@ const isDark = useDark({
               <img
                 class="w-36 p-2 drop-shadow-4xl"
                 alt="user header"
-                :src="!isDark ? slotProps.data.image : slotProps.data.imageDark"
+                :src="!isDark ? getImageUrl(slotProps.data.image) : getImageUrl(slotProps.data.imageDark)"
               />
             </div>
           </template>

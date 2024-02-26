@@ -10,6 +10,10 @@ const isDark = useDark({
   valueDark: "dark",
   valueLight: "light",
 });
+
+function getImageUrl(name) {
+  return new URL(import.meta.env.MODE === 'production' ? `/portfolio-vue${name}` : `${name}`, import.meta.url).href
+}
 </script>
 <template>
   <section class="flex flex-wrap w-full h-full justify-center gap-6">
@@ -24,7 +28,7 @@ const isDark = useDark({
           <img
             class="w-36 p-2"
             alt="user header"
-            :src="!isDark ? skillQ.image : skillQ.imageDark"
+            :src="!isDark ? getImageUrl(skillQ.image) : getImageUrl(skillQ.imageDark)"
           />
         </div>
       </template>
