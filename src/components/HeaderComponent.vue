@@ -3,13 +3,13 @@ import SelectButton from "primevue/selectbutton";
 import { ref } from "vue";
 let selectedLang = ref(
   localStorage.getItem("lang") === "en"
-    ? { img: "/src/assets/imgs/icons/us-flag.svg", value: "en" }
-    : { img: "/src/assets/imgs/icons/br-flag.svg", value: "pt" }
+    ? { img: "/portfolio-vue/src/assets/imgs/icons/us-flag.svg", value: "en" }
+    : { img: "/portfolio-vue/src/assets/imgs/icons/br-flag.svg", value: "pt" }
 );
 let oldOpt = selectedLang.value;
 const options = ref([
-  { img: "/src/assets/imgs/icons/br-flag.svg", value: "pt" },
-  { img: "/src/assets/imgs/icons/us-flag.svg", value: "en" },
+  { img: "/portfolio-vue/src/assets/imgs/icons/br-flag.svg", value: "pt" },
+  { img: "/portfolio-vue/src/assets/imgs/icons/us-flag.svg", value: "en" },
 ]);
 verifyLang();
 
