@@ -3,10 +3,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue({
-    reactivityTransform: true
-  })],
-  publicPath: "/portfolio-vue",
+  plugins: [vue()],
+  publicPath: process.env.NODE_ENV === "production" ? "/portfolio-vue" : "/",
   commonjsOptions: {
     esmExternals: true,
  },
