@@ -11,58 +11,58 @@
     },
     "skills":{
         "soft": {
-            "image": "/src/assets/imgs/icons/skill-svg.svg",
-            "imageDark": "/src/assets/imgs/icons/skill-white-svg.svg",
+            "image": "/icons/skill-svg.svg",
+            "imageDark": "/icons/skill-white-svg.svg",
             "title" : "Soft Skills",
             "skills": ["Aprendizado Rápido","Colaborativo", "Habilidade Organizacional", "Boa Comunicação" , "Flexibilidade/Adaptabilidade",  "Capacidade de Concentração", "Autonomia"]
         },
         "general": {
-            "image": "/src/assets/imgs/icons/full-skill.svg",
-            "imageDark": "/src/assets/imgs/icons/full-skill-white.svg",
+            "image": "/icons/full-skill.svg",
+            "imageDark": "/icons/full-skill-white.svg",
             "title" : "Skills Gerais",
             "skills": ["Lógica de Programação", "GitFlow", "Git", "GitHub/GitLab"]
         },
         "front": {
-            "image": "/src/assets/imgs/icons/front-skill.svg",
-            "imageDark": "/src/assets/imgs/icons/front-skill-white.svg",
+            "image": "/icons/front-skill.svg",
+            "imageDark": "/icons/front-skill-white.svg",
             "title" : "Front End",
             "skills": ["Angular", "Vue", "React", "TS/JS"]
         },
         "back": {
-            "image": "/src/assets/imgs/icons/back-skill.svg",
-            "imageDark": "/src/assets/imgs/icons/back-skill-white.svg",
+            "image": "/icons/back-skill.svg",
+            "imageDark": "/icons/back-skill-white.svg",
             "title" : "Back End",
             "skills": ["Java", "Python"]
         }
     },
     "projects": {
         "portfolioVue": {
-            "image": "/src/assets/imgs/logos/vue.svg",
-            "imageDark": "/src/assets/imgs/logos/vue.svg",
+            "image": "/logos/vue.svg",
+            "imageDark": "/logos/vue.svg",
             "title": "Portfólio em Vue",
             "about": "Portifólio feito em Vue 3 com Vite. Foi utilizado frameworks como VueUse, PrimeVue e TailwindCSS. O objetivo deste projeto é demonstrar aprendizados e experiencias com o Vue e montar um Portfolio com o mesmo."
         },
         "portfolioReact": {
-            "image": "/src/assets/imgs/logos/react.svg",
-            "imageDark": "/src/assets/imgs/logos/react.svg",
+            "image": "/logos/react.svg",
+            "imageDark": "/logos/react.svg",
             "title": "Portfólio em React",
             "about": "Portifólio feito em React. Foi utilizado alguns frameworks como PrimeReact e TailwindCSS. O objetivo deste projeto é demonstrar aprendizados e experiencias com o React e montar um Portfolio com o mesmo."
         },
         "portfolioAngular": {
-            "image": "/src/assets/imgs/logos/angular.svg",
-            "imageDark": "/src/assets/imgs/logos/angular.svg",
+            "image": "/logos/angular.svg",
+            "imageDark": "/logos/angular.svg",
             "title": "Portfólio em Angular",
             "about": "Portifólio feito em Angular 17 Foi utilizado alguns frameworks como PrimeNG e PrimeFlex. O objetivo deste projeto é demonstrar aprendizados e experiencias com o Angular e montar um Portfolio com o mesmo."
         },
         "sensitiveProject1": {
-            "image": "/src/assets/imgs/logos/sensitive.svg",
-            "imageDark": "/src/assets/imgs/logos/sensitive-white.svg",
+            "image": "/logos/sensitive.svg",
+            "imageDark": "/logos/sensitive-white.svg",
             "title": "Projeto em Sigilo",
             "about": "Nesse projeto utilizei Angular 13 com Angular Material como framework Front e Java Spring Boot com Lombook para o Back. O objetivo desse projeto é inserir, excluir e alterar dados de usuários cadastrados dentro do programa do órgão."
         },
         "sensitiveProject2": {
-            "image": "/src/assets/imgs/logos/sensitive.svg",
-            "imageDark": "/src/assets/imgs/logos/sensitive-white.svg",
+            "image": "/logos/sensitive.svg",
+            "imageDark": "/logos/sensitive-white.svg",
             "title": "Projeto em Sigilo",
             "about": "Nesse projeto utilizei Angular 13 com PrimeNG e PrimeFlex como framework Front e Java Spring Boot para o Back. O objetivo principal do projeto era criar um sistema para que os usuários pudessem customizar ambientes de \"galerias virtuais\" que futuramente seria consumidos por uma aplicação unity."
         }
