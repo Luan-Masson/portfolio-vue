@@ -11,8 +11,8 @@
     },
     "skills": {
         "soft": {
-            "image": "/portfolio-vue/src/assets/imgs/icons/skill-svg.svg",
-            "imageDark": "/portfolio-vue/src/assets/imgs/icons/skill-white-svg.svg",
+            "image": "/src/assets/imgs/icons/skill-svg.svg",
+            "imageDark": "/src/assets/imgs/icons/skill-white-svg.svg",
             "title": "Soft Skills",
             "skills": [
                 "Fast Learning",
@@ -25,8 +25,8 @@
             ]
         },
         "general": {
-            "image": "/portfolio-vue/src/assets/imgs/icons/full-skill.svg",
-            "imageDark": "/portfolio-vue/src/assets/imgs/icons/full-skill-white.svg",
+            "image": "/src/assets/imgs/icons/full-skill.svg",
+            "imageDark": "/src/assets/imgs/icons/full-skill-white.svg",
             "title": "General Skills",
             "skills": [
                 "Programming Logic",
@@ -36,8 +36,8 @@
             ]
         },
         "front": {
-            "image": "/portfolio-vue/src/assets/imgs/icons/front-skill.svg",
-            "imageDark": "/portfolio-vue/src/assets/imgs/icons/front-skill-white.svg",
+            "image": "/src/assets/imgs/icons/front-skill.svg",
+            "imageDark": "/src/assets/imgs/icons/front-skill-white.svg",
             "title": "Front End",
             "skills": [
                 "Angular",
@@ -47,8 +47,8 @@
             ]
         },
         "back": {
-            "image": "/portfolio-vue/src/assets/imgs/icons/back-skill.svg",
-            "imageDark": "/portfolio-vue/src/assets/imgs/icons/back-skill-white.svg",
+            "image": "/src/assets/imgs/icons/back-skill.svg",
+            "imageDark": "/src/assets/imgs/icons/back-skill-white.svg",
             "title": "Back End",
             "skills": [
                 "Java",
@@ -58,32 +58,32 @@
     },
     "projects": {
         "portfolioVue": {
-            "image": "/portfolio-vue/src/assets/imgs/logos/vue.svg",
-            "imageDark": "/portfolio-vue/src/assets/imgs/logos/vue.svg",
+            "image": "/src/assets/imgs/logos/vue.svg",
+            "imageDark": "/src/assets/imgs/logos/vue.svg",
             "title": "Portfolio in Vue",
             "about": "This portfolio was created using Vue 3 with Vite. Frameworks such as VueUse, PrimeVue, and TailwindCSS were used. The main goal of this project is to showcase and demonstrate experience and the learning curve with Vue and to build a Portfolio."
         },
         "portfolioReact": {
-            "image": "/portfolio-vue/src/assets/imgs/logos/react.svg",
-            "imageDark": "/portfolio-vue/src/assets/imgs/logos/react.svg",
+            "image": "/src/assets/imgs/logos/react.svg",
+            "imageDark": "/src/assets/imgs/logos/react.svg",
             "title": "Portfolio in React",
             "about": "A portfolio that was created using React. Frameworks such as PrimeReact and PrimeFlex were used. The main goal of this project is to showcase and demonstrate experience and the learning curve with React and to build a Portfolio."
         },
         "portfolioAngular": {
-            "image": "/portfolio-vue/src/assets/imgs/logos/angular.svg",
-            "imageDark": "/portfolio-vue/src/assets/imgs/logos/angular.svg",
+            "image": "/src/assets/imgs/logos/angular.svg",
+            "imageDark": "/src/assets/imgs/logos/angular.svg",
             "title": "Portfolio in Angular",
             "about": "A portfolio that was created using Angular 17. Frameworks such as Angular Material, PrimeNG and PrimeFlex were used. The main goal of this project is to showcase and demonstrate experience and the learning curve with Angular and to build a Portfolio."
         },
         "sensitiveProject1": {
-            "image": "/portfolio-vue/src/assets/imgs/logos/sensitive.svg",
-            "imageDark": "/portfolio-vue/src/assets/imgs/logos/sensitive-white.svg",
+            "image": "/src/assets/imgs/logos/sensitive.svg",
+            "imageDark": "/src/assets/imgs/logos/sensitive-white.svg",
             "title": "Sensitive Project",
             "about": "In this project, I employed Angular 13 with Angular Material as the front-end framework and Java Spring Boot with Lombok for the back-end. The primary objective of this project is to facilitate the insertion, deletion, and modification of data for registered users within the organization's program."
         },
         "sensitiveProject2": {
-            "image": "/portfolio-vue/src/assets/imgs/logos/sensitive.svg",
-            "imageDark": "/portfolio-vue/src/assets/imgs/logos/sensitive-white.svg",
+            "image": "/src/assets/imgs/logos/sensitive.svg",
+            "imageDark": "/src/assets/imgs/logos/sensitive-white.svg",
             "title": "Sensitive Project",
             "about": "In this project, I employed Angular 13 with PrimeNG and PrimeFlex as the front-end framework, and Java Spring Boot for the back-end. The main objective of the project was to create a system that allows users to customize environments for \"virtual galleries\", which would later be consumed by a Unity application."
         }

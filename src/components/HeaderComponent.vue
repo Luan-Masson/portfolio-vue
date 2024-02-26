@@ -3,14 +3,18 @@ import SelectButton from "primevue/selectbutton";
 import { ref } from "vue";
 let selectedLang = ref(
   localStorage.getItem("lang") === "en"
-    ? { img: "/portfolio-vue/src/assets/imgs/icons/us-flag.svg", value: "en" }
-    : { img: "/portfolio-vue/src/assets/imgs/icons/br-flag.svg", value: "pt" }
+    ? { img: "/src/assets/imgs/icons/us-flag.svg", value: "en" }
+    : { img: "/src/assets/imgs/icons/br-flag.svg", value: "pt" }
 );
 let oldOpt = selectedLang.value;
 const options = ref([
-  { img: "/portfolio-vue/src/assets/imgs/icons/br-flag.svg", value: "pt" },
-  { img: "/portfolio-vue/src/assets/imgs/icons/us-flag.svg", value: "en" },
+  { img: "/src/assets/imgs/icons/br-flag.svg", value: "pt" },
+  { img: "/src/assets/imgs/icons/us-flag.svg", value: "en" },
 ]);
+
+function getImageUrl(name) {
+  return new URL(`portfolio-vue/${name}.svg`, import.meta.url).href
+}
 verifyLang();
 
 function verifyLang(event) {
@@ -46,7 +50,7 @@ function verifyLang(event) {
       class="select-button"
     >
       <template #option="slotProps">
-        <img class="w-6" :src="slotProps.option.img" alt="" />
+        <img class="w-6" :src="getImageUrl(slotProps.option.img)" alt="" />
       </template>
     </SelectButton>
   </header>
