@@ -1,6 +1,7 @@
 import global from './global.js';
 import autocomplete from './autocomplete';
 import calendar from './calendar';
+import carousel from './carousel'
 import cascadeselect from './cascadeselect';
 import checkbox from './checkbox';
 import chips from './chips';
@@ -84,6 +85,7 @@ export default {
     },
     autocomplete,
     calendar,
+    carousel,
     cascadeselect,
     checkbox,
     chips,
