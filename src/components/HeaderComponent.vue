@@ -13,7 +13,7 @@ const options = ref([
 ]);
 
 function getImageUrl(name) {
-  return new URL(import.meta.env.MODE === 'production' ? `/portfolio-vue/${name}` : `${name}`, import.meta.url).href
+  return new URL(import.meta.env.MODE === 'production' ? `/portfolio-vue${name}` : `${name}`, import.meta.url).href
 }
 verifyLang();
 
