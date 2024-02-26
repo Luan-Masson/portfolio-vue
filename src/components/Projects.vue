@@ -7,7 +7,7 @@ import { ref } from "vue";
 const responsiveOptions = ref([
     {
         breakpoint: '1400px',
-        numVisible: 2,
+        numVisible: 3,
         numScroll: 1
     },
     {
