@@ -52,7 +52,7 @@ function getImageUrl(name) {
     >
       <template #item="slotProps">
         <Card
-          class="w-11/12 h-112 xl:h-100 overflow-hidden"
+          class="w-11/12 h-104 xl:h-100 overflow-hidden"
         >
           <template #header>
             <div class="flex justify-center items-center w-full h-40">
@@ -69,7 +69,7 @@ function getImageUrl(name) {
             }}</span></template
           >
           <template #content>
-            <span>{{ slotProps.data.about }}</span>
+            <span class="line-clamp-8 ">{{ slotProps.data.about }}</span>
           </template>
         </Card>
       </template>

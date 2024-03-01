@@ -48,6 +48,10 @@ export default {
       },
       zIndex: {
         '100': '100',
+      },
+      lineClamp: {
+        7: '7',
+        8: '8'
       }
     },
   },

@@ -58,13 +58,13 @@
             "image": "/logos/sensitive.svg",
             "imageDark": "/logos/sensitive-white.svg",
             "title": "Projeto em Sigilo",
-            "about": "Nesse projeto utilizei Angular 13 com Angular Material como framework Front e Java Spring Boot com Lombook para o Back. O objetivo desse projeto é inserir, excluir e alterar dados de usuários cadastrados dentro do programa do órgão."
+            "about": "Nesse projeto utilizei Angular 13 com Angular Material como framework Front e Java Spring Boot com Lombook para o Back."
         },
         "sensitiveProject2": {
             "image": "/logos/sensitive.svg",
             "imageDark": "/logos/sensitive-white.svg",
             "title": "Projeto em Sigilo",
-            "about": "Nesse projeto utilizei Angular 13 com PrimeNG e PrimeFlex como framework Front e Java Spring Boot para o Back. O objetivo principal do projeto era criar um sistema para que os usuários pudessem customizar ambientes de \"galerias virtuais\" que futuramente seria consumidos por uma aplicação unity."
+            "about": "Nesse projeto utilizei Angular 13 com PrimeNG e PrimeFlex como framework Front e Java Spring Boot para o Back."
         }
     }
 }
