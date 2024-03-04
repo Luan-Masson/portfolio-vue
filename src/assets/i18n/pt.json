@@ -1,38 +1,58 @@
 {
     "contact": "Contatos",
-    "mode":{
+    "mode": {
         "light": "modo claro",
         "dark": "modo escuro"
     },
-    "about":{
+    "about": {
         "is": "Luan é:",
         "header": "Deixe me apresentar, eu sou Luan Masson",
         "aboutMe": "Trabalho atualmente em uma fábrica de Software como Full Stack, estou procurando estudar e me aperfeiçoar no desenvolvimento web com o estudo dos 3 maiores 'frameworks' do mercado: Vue, React e Angular."
     },
-    "skills":{
+    "skills": {
         "soft": {
             "image": "/icons/skill-svg.svg",
             "imageDark": "/icons/skill-white-svg.svg",
-            "title" : "Soft Skills",
-            "skills": ["Aprendizado Rápido","Colaborativo", "Habilidade Organizacional", "Boa Comunicação" , "Flexibilidade/Adaptabilidade",  "Capacidade de Concentração", "Autonomia"]
+            "title": "Soft Skills",
+            "skills": [
+                "Aprendizado Rápido",
+                "Colaborativo",
+                "Habilidade Organizacional",
+                "Boa Comunicação",
+                "Autonomia",
+                "Flexibilidade/Adaptabilidade"
+            ]
         },
         "general": {
             "image": "/icons/full-skill.svg",
             "imageDark": "/icons/full-skill-white.svg",
-            "title" : "Skills Gerais",
-            "skills": ["Lógica de Programação", "GitFlow", "Git", "GitHub/GitLab"]
+            "title": "Skills Gerais",
+            "skills": [
+                "Lógica de Programação",
+                "GitFlow",
+                "Git",
+                "GitHub/GitLab"
+            ]
         },
         "front": {
             "image": "/icons/front-skill.svg",
             "imageDark": "/icons/front-skill-white.svg",
-            "title" : "Front End",
-            "skills": ["Angular", "Vue", "React", "TS/JS"]
+            "title": "Front End",
+            "skills": [
+                "Angular",
+                "Vue",
+                "React",
+                "TS/JS"
+            ]
         },
         "back": {
             "image": "/icons/back-skill.svg",
             "imageDark": "/icons/back-skill-white.svg",
-            "title" : "Back End",
-            "skills": ["Java", "Python"]
+            "title": "Back End",
+            "skills": [
+                "Java",
+                "Python"
+            ]
         }
     },
     "projects": {

@@ -3,7 +3,7 @@ export default {
         class: [
             //Shape
             'rounded-lg',
-            'shadow-xl dark:shadow-xl dark:shadow-slate-700',
+            'shadow-md dark:shadow-md dark:!shadow-slate-900 md:shadow-lg md:dark:shadow-lg',
 
             //Color
             'bg-teal-100/30 dark:bg-surface-900',

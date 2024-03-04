@@ -12,7 +12,10 @@ const isDark = useDark({
 });
 
 function getImageUrl(name) {
-  return new URL(import.meta.env.MODE === 'production' ? `/portfolio-vue${name}` : `${name}`, import.meta.url).href
+  return new URL(
+    import.meta.env.MODE === "production" ? `/portfolio-vue${name}` : `${name}`,
+    import.meta.url
+  ).href;
 }
 </script>
 <template>
@@ -28,7 +31,11 @@ function getImageUrl(name) {
           <img
             class="w-36 p-2"
             alt="user header"
-            :src="!isDark ? getImageUrl(skillQ.image) : getImageUrl(skillQ.imageDark)"
+            :src="
+              !isDark
+                ? getImageUrl(skillQ.image)
+                : getImageUrl(skillQ.imageDark)
+            "
           />
         </div>
       </template>
@@ -39,13 +46,14 @@ function getImageUrl(name) {
       >
       <template #content>
         <div class="flex flex-col gap-2 h-44">
-          <ScrollPanel style="width: 100%; height: 200px">
-            <div class="flex flex-col gap-2">
-              <li v-for="skill in skillQ.skills" :key="skill">
-                <Chip class="shadow" :label="skill" />
-              </li>
-            </div>
-          </ScrollPanel>
+          <div class="flex w-full gap-2 flex-wrap">
+            <Chip
+              v-for="skill in skillQ.skills"
+              :key="skill"
+              class="shadow w-max h-max"
+              :label="skill"
+            />
+          </div>
         </div>
       </template>
     </Card>

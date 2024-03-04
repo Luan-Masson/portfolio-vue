@@ -18,7 +18,7 @@ setInterval(() => {
 
 <template>
   <section class="flex w-dvw h-3/4 items-center justify-center absolute z-20">
-    <section class="flex w-full justify-center items-center md:gap-8">
+    <section class="flex w-full justify-center items-center gap-2 md:gap-8">
       <h1 class="text-3xl md:text-7xl font-bold fade-in">
         {{ $t("about.is") }}
       </h1>

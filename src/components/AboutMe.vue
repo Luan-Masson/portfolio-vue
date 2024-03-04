@@ -4,11 +4,11 @@
     <div
       class="flex flex-col md:flex-row fade-in w-full h-full items-center justify-center gap-8"
     >
-      <div class="flex flex-col gap-2 w-30rem items-center md:items-start"
+      <div class="flex flex-col gap-2 w-8/12 md:w-104 items-center md:items-start"
       v-animateonscroll="{ enterClass: 'fade-in-up', leaveClass: 'invisible' }">
-        <h1 class="text-md md:text-3xl text-start">{{ $t("about.header") }}</h1>
+        <h1 class="text-xl md:text-3xl text-center md:text-justify">{{ $t("about.header") }}</h1>
         <div class="w-48 md:w-96">
-          <p class="text-xs md:text-base text-justify indent-4">
+          <p class="text-sm md:text-base text-justify indent-4">
             {{ $t("about.aboutMe") }}
           </p>
         </div>
@@ -35,7 +35,4 @@
   </section>
 </template>
 <style scoped>
-.w-30rem {
-  width: 30rem;
-}
 </style>
