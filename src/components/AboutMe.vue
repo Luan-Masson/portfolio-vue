@@ -22,7 +22,7 @@
         />
         <img
           class="rounded-2xl max-h-16 md:max-h-32 absolute z-10 -top-4 -left-3 shadow-md shadow-teal-300 transition-all ease-in-out duration-300 dark:shadow-teal-800 hover:scale-110 hover:shadow-sm"
-          src="../assets/imgs/img/Me2.png"
+          src="../assets/imgs/img/Me2.jpeg"
           alt=""
         />
         <img
